@@ -1,0 +1,38 @@
+Token deer form-oo bugluud submit darhad token.js-n
+url duudagdah ystoi or not ?
+
+
+Process														
+
+1.Form bugluh [YES] FULLY DONE
+
+2.Buglusun medeellig awj array-d hadgalah [YES] FULLY DONE
+
+3.Hadgalsan array-g url-r damjuulan hargalzah
+node file ruu ywuulah [YES] FULLY DONE 
+
+4.Node file deer tuhain url-d hamt irsen array-g
+huleen awah [YES] DONE IN TESTING ENVIRONMENT
+
+5.Huleen awsan data-ga shaardlagatai hesguuded
+orluulah [NOT-YET]
+
+6.Orluulsnii daraa server-s tuhain data-tai 
+hargalzah respond-g huleen awah [NO]
+
+7.Huleen awsan respond-oo mun array-d hiin 
+hadgalah [NO]
+
+8.Hadgalsan respond data-ga frontend rvv 
+ywuulah [YES] DONE IN TESTING ENVIRONMENT
+
+9.Frontend backend-s tuhain respond data-g 
+huleen awj delgetsend haruulah [YES] DONE IN TESTING ENVIRONMENT [CONFUSING AF]
+
+3006->8443->[SERVER]->8443->3006
+
+
+Problem: 8443s 3006 ruu ywuulj bolku bn 
+Solution: Umnu ni testing-eer ywuulj bolj bsn ba testing deer bol routes file uusged terengeere damjuulan ywj bolson. Adilhan routes file uusged
+ywii geher node deer file hoorond ugugdul damjuulj mdku bga. Mun node/express deer yg ehleed servert uguud daraa ni serverees awna gesen daraallig
+yaj hiihee mdku bn. 
