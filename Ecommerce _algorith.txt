@@ -36,3 +36,13 @@ Problem: 8443s 3006 ruu ywuulj bolku bn
 Solution: Umnu ni testing-eer ywuulj bolj bsn ba testing deer bol routes file uusged terengeere damjuulan ywj bolson. Adilhan routes file uusged
 ywii geher node deer file hoorond ugugdul damjuulj mdku bga. Mun node/express deer yg ehleed servert uguud daraa ni serverees awna gesen daraallig
 yaj hiihee mdku bn. 
+
+
+Nehemjlel uusgehig darahad invoice deer nemelteer hel bolon socialpay/payment gesen 2 songolttoi form mun sumbit gesen
+
+ const myurl =
+      "https://ecommerce.golomtbank.com:8443/" +
+      nehemjlel_array[1] +
+      "/" +
+      nehemjlel_array[0] +
+      "/invoice";

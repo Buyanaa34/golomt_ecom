@@ -188,18 +188,18 @@ module.exports = function (arg1, arg2) {
     // next();
   });
   router.get("/showdata", (req, res, next) => {
-    const str = [
-      {
-        amount: arg1,
-        errorDesc: dummy_val,
-        height: "6'11",
-      },
-    ];
+    // const str = [
+    //   {
+    //     amount: arg1,
+    //     errorDesc: dummy_val,
+    //     height: "6'11",
+    //   },
+    // ];
     var result = null;
     try {
       result = JSON.parse(dummy_val);
     } catch (error) {
-      result = str;
+      result = error;
     }
 
     res.end(JSON.stringify(result));
