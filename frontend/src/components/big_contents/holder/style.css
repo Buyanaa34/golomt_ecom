@@ -1,0 +1,34 @@
+.holder {
+  width: 50%;
+  height: 95%;
+  text-align: center;
+  background-color: rgb(221, 221, 221);
+  float: left;
+  margin-left: 12% !important;
+  box-shadow: 5px 5px #c7c7c7;
+  margin: 10px;
+  transition: transform 0.12s ease-out;
+}
+
+h1 {
+  color: rgb(139, 160, 162);
+  text-align: center;
+}
+
+.holder:hover {
+  transform: scale(1.01);
+  box-shadow: 5px 5px #b8b8b8;
+}
+
+.form_holder {
+  justify-items: center;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+@media (max-width: 500px) {
+  .form_holder {
+    grid-template-columns: none;
+  }
+}

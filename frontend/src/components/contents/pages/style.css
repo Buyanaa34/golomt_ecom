@@ -1,0 +1,35 @@
+.nvvr_pic {
+  border-radius: 5px;
+  box-shadow: 5px 5px #b8b8b8;
+  width: 70%;
+  height: 100%;
+}
+
+.pages {
+  display: flex;
+}
+
+.show_results {
+  word-wrap: break-word;
+  font-weight: bold;
+  color: rgb(139, 160, 162);
+  margin-left: 10px;
+  text-align: left;
+}
+
+.show_results_mid {
+  margin: 20px;
+  padding: 20px;
+  word-wrap: break-word;
+  font-weight: bold;
+  color: rgb(139, 160, 162);
+  font-size: 20px;
+  text-align: center;
+}
+.description_holder {
+  color: rgb(94, 94, 94);
+}
+
+.dropdown_holder {
+  padding: 5px;
+}
